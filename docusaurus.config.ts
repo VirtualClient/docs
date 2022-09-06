@@ -12,7 +12,7 @@ const url = (preview && env.VERCEL_URL) || "https://docs.virtualclient.gg";
 
 const docsCommon: Options = {
   breadcrumbs: true,
-  editUrl: ({ docPath }) => `https://github.com/VirtualClient/docs/blob/main/docs/${docPath}`,
+  editUrl: ({ docPath }) => `https://github.com/VirtualClient/docs/blob/main/docs/server-api/${docPath}`,
   editCurrentVersion: true,
   remarkPlugins: [remarkA11yEmoji],
   showLastUpdateAuthor: true,
