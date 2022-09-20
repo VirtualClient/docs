@@ -32,10 +32,9 @@ The payload looks something like this. The documentation below will show what th
                 }
             ],
 
-            //The title is a bit more complex. It supports raw text, json message components provided as a json element or json message components provided in a string 
+            //The title is a bit more complex. It supports raw text or json message components provided as a json element
             //Examples:
             //"title": "My Title"
-            //"title": "[\"\",{\"text\":\"Coins: \"},{\"text\":\"500\",\"color\":\"yellow\"}]\r\n"
             //"title": ["",{"text":"Coins: "},{"text":"500","color":"yellow"}]
             "title": "My Title"
         }
